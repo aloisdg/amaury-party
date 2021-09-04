@@ -23,6 +23,7 @@ const Index = () => {
       </a>
       <h1 className="font-bold text-2xl">Amaury Party</h1>
       <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" />
