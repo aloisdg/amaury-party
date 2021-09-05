@@ -4,7 +4,7 @@ import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 
 const Index = () => {
-  const [plusOne, setPlusOne] = useState(false);
+  const [plusOne, setPlusOne] = useState(true);
 
   return (
     <Main
@@ -95,8 +95,8 @@ const Index = () => {
                 setPlusOne(e.target.value === 'Oui');
               }}
             >
-              <option>Non</option>
               <option>Oui</option>
+              <option>Non</option>
             </select>
           </label>
         </p>
