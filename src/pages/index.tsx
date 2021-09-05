@@ -1,30 +1,20 @@
 import { useState } from 'react';
 
-import { useRouter } from 'next/router';
-
 import { Meta } from '../layout/Meta';
 import { Main } from '../templates/Main';
 
 const Index = () => {
-  const router = useRouter();
   const [plusOne, setPlusOne] = useState(false);
 
   return (
     <Main
       meta={
         <Meta
-          title="Next.js Boilerplate Presentation"
-          description="Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+          title="Amaury Party Survey"
+          description="a basic survey. fait rapidement..."
         />
       }
     >
-      <a href="https://github.com/ixartz/Next-js-Boilerplate">
-        <img
-          src={`${router.basePath}/assets/images/nextjs-starter-banner.png`}
-          alt="Nextjs starter banner"
-        />
-      </a>
-      <h1 className="font-bold text-2xl">Amaury Party</h1>
       <form name="contact" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <p>
