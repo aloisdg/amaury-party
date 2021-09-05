@@ -19,7 +19,7 @@ const Index = () => {
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name" className="block">
-            <span className="text-gray-700">Quel est ton nom?</span>
+            <span className="text-gray-700">Quel est ton nom ?</span>
             <input
               type="text"
               id="name"
@@ -67,7 +67,15 @@ const Index = () => {
         <p>
           <label htmlFor="boat" className="block">
             <span className="text-gray-700">
-              Souhaites-tu participer à la balade en canoë ?
+              Souhaites-tu participer à la{' '}
+              <a
+                href="https://www.nature-loisir.fr/activites/descentes-du-loing-en-canoes-kayaks/"
+                target="blank"
+                title="nature-loisir.fr"
+              >
+                balade en canoë
+              </a>{' '}
+              ?
             </span>
             <span className="text-gray-700 text-sm block">
               Cela va durer 2h30 et coûter ~24€ par personne.
@@ -105,7 +113,7 @@ const Index = () => {
           <>
             <p>
               <label htmlFor="namePlusOne" className="block">
-                <span className="text-gray-700">Quel est son nom?</span>
+                <span className="text-gray-700">Quel est son nom ?</span>
                 <input
                   type="text"
                   id="namePlusOne"
@@ -153,7 +161,15 @@ const Index = () => {
             <p>
               <label htmlFor="boatPlusOne" className="block">
                 <span className="text-gray-700">
-                  Est-ce que le +1 souhaite participer à la balade en canoë ?
+                  Est-ce que le +1 souhaite participer à la{' '}
+                  <a
+                    href="https://www.nature-loisir.fr/activites/descentes-du-loing-en-canoes-kayaks/"
+                    target="blank"
+                    title="nature-loisir.fr"
+                  >
+                    balade en canoë
+                  </a>{' '}
+                  ?
                 </span>
                 <span className="text-gray-700 text-sm block">
                   Cela va durer 2h30 et coûter ~24€ par personne.
